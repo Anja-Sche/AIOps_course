@@ -1,11 +1,11 @@
 name,age,salary,role,description
-Emma Svensson,26,38000,Utvecklare,Emma arbetar som juniorutvecklare och fokuserar främst på frontend-utveckling med React. Hon är nyutexaminerad och lär sig snabbt i teamet.
-Johan Karlsson,42,58000,Seniorutvecklare,Johan är seniorutvecklare med specialisering inom backend och systemarkitektur. Han har över 15 års erfarenhet och mentorar yngre kollegor.
-Sara Andersson,35,45000,Systemadministratör,Sara ansvarar för företagets IT-infrastruktur och ser till att servrar och nätverk fungerar problemfritt. Hon har ett brett tekniskt kunnande inom molntjänster.
-Lisa Nilsson,29,34000,HR-assistent,Lisa stödjer HR-avdelningen med administrativa uppgifter som anställningsavtal och personalregister. Hon är ofta första kontaktpunkten för medarbetares HR-frågor.
-Mikael Berg,48,56000,HR-chef,Mikael leder HR-avdelningen och arbetar strategiskt med kompetensutveckling och organisationsutveckling. Han har lång erfarenhet av arbetsrätt och fackliga förhandlingar.
-Emma Lindberg,31,42000,Marknadskoordinator,Emma planerar och genomför marknadsföringskampanjer både digitalt och i tryckt media. Hon samarbetar nära med säljavdelningen för att generera leads.
-Oscar Dahl,38,48000,Digital marknadsförare,"Oscar är specialist på digital marknadsföring med fokus på SEO, SEM och sociala medier. Han analyserar data för att optimera kampanjernas prestanda."
-Sofia Persson,44,54000,Marknadschef,Sofia ansvarar för företagets övergripande marknadsstrategi och varumärkesbyggande. Hon leder ett team av marknadsförare och har budgetansvar.
-Henrik Olsson,23,32000,IT-supporter,Henrik hjälper medarbetare med IT-relaterade problem och supportärenden i vardagen. Han är ny i rollen och har ett stort serviceintresse.
-Clara Ekström,39,46000,Rekryterare,Clara arbetar med rekrytering och ser till att företaget attraherar rätt talanger till olika roller. Hon genomför intervjuer och hanterar hela rekryteringsprocessen.
+Anna Svensson,29,38000,Systemutvecklare,Utvecklar och underhåller webbapplikationer i ett agilt team. Har erfarenhet av JavaScript och molnbaserade lösningar.
+Erik Johansson,34,45000,IT-säkerhetsspecialist,Ansvarar för företagets säkerhetsarbete och riskanalyser. Utbildar personalen i säkerhetsmedvetenhet.
+Maria Karlsson,26,33000,IT-supporttekniker,Hjälper kollegor med datorproblem och installationer av mjukvara. Ger support via telefon och chatt.
+Lars Nilsson,42,56000,Molnarkitekt,Designar och implementerar molnlösningar för skalbara applikationer. Säkerställer driftsäkerhet och kostnadseffektivitet.
+Sara Andersson,31,37000,HR-assistent,Stödjer HR-avdelningen med administration och onboarding av nya medarbetare. Hanterar personalärenden och dokumentation.
+Olle Petersson,45,52000,HR Business Partner,Arbetar nära chefer med personalutveckling och organisationsförändringar. Driver lönerevisioner och arbetsmiljöarbete.
+Linnea Berg,28,40000,Rekryterare,Ansvarar för hela rekryteringsprocessen från annons till anställning. Bygger kandidatpooler och gör intervjuer.
+David Lind,33,42000,Digital marknadsförare,Hanterar annonsering i sociala medier och sökmotorsoptimering. Analyserar kampanjresultat och optimerar konvertering.
+Emma Holm,37,47000,Kommunikationsansvarig,Planerar och producerar intern och extern kommunikation. Ansvarar för presskontakter och varumärkesbyggande.
+Henrik Östberg,39,44000,Marknadsanalytiker,Samlar in och bearbetar marknadsdata för att stödja affärsbeslut. Identifierar trender och kundbeteenden.

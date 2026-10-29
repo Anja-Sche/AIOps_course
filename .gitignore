@@ -1,3 +1,7 @@
+raw_text.txt
+raw_program.txt
+raw_program2.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
