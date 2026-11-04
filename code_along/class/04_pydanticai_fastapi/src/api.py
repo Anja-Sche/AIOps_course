@@ -12,7 +12,7 @@ async def read_movies():
     return "testing reload"
 
 @app.post("/movie")
-async def create_movie(query): 
+async def create_movie(query: str): 
     result = await movie_agent.run(query)
     return result.output
 

@@ -13,8 +13,3 @@ class Movie(BaseModel):
                         le=5) 
     summary: str = Field(description="Short exiting summary of the movie, 1-2 scentences")
 
-
-
-
-class Prompt(BaseModel):
-    prompt: str
