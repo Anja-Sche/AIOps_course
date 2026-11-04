@@ -1,26 +1,33 @@
 from agents import movie_agent
 from fastapi import FastAPI
-import os
+from setup_db import query_duckdb
+from data_models import Prompt
 
 app = FastAPI()
 
 @app.get("/movies")
 # async is default in FastAPI
 # write it for best practise
-async def read_movies():
-    # TODO: implement this
-    return "testing reload"
+async def read_movies(genre: str | None = None):
+    if genre:
+        sql = "SELECT * FROM movies WHERE genre = ?;"
+        params = [genre]
+    else:
+        sql = "FROM movies;"
+        params = None
+
+    movies = query_duckdb(sql, parameters=params)
+    return movies.to_dict(orient="records")
 
 @app.post("/movie")
 async def create_movie(query: str): 
     result = await movie_agent.run(query)
-    return result.output
+    
+    movie =  result.output
 
-    # TODO: save to database
+    query_duckdb(
+        "INSERT INTO movies VALUES (?,?,?,?,?)",
+        parameters=(movie.title, movie.year, movie.genre, movie.rating, movie.summary)
+    )
 
-    # query_duckdb(
-    #     "INSERT INTO movies VALUES (?,?,?,?)",
-    #     parameters=(movie.title, movie.year, movie.genre, movie.rating)
-    # )
-
-    # return movie
+    return movie

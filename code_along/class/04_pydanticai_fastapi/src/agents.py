@@ -4,8 +4,9 @@ from data_models import Movie
 
 
 movie_agent = Agent(model=nvidia_model(), 
-                    instructions="Yot are an expert in finding a movie based on a text", 
+                    instructions="You are an expert in finding a movie based on a text", 
                     output_type=Movie)
+
 
 
 # be able to run as standalone script
