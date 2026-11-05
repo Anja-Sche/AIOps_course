@@ -21,7 +21,7 @@ async def read_movies(genre: str | None = None):
 
 @app.post("/movie")
 async def create_movie(query: Prompt): 
-    result = await movie_agent.run(query, Prompt)
+    result = await movie_agent.run(query.prompt)
     
     movie =  result.output
 
