@@ -20,8 +20,8 @@ async def read_movies(genre: str | None = None):
     return movies.to_dict(orient="records")
 
 @app.post("/movie")
-async def create_movie(query: str): 
-    result = await movie_agent.run(query)
+async def create_movie(query: Prompt): 
+    result = await movie_agent.run(query, Prompt)
     
     movie =  result.output
 
