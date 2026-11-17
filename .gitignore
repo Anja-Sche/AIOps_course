@@ -224,3 +224,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+code_along/video/11_rag/data/*.txt
+knowledge_base
