@@ -22,3 +22,9 @@ dependencies = [
     "streamlit>=1.66.1",
     "uvicorn>=0.54.0",
 ]
+
+[tool.uv.workspace]
+members = [
+    "code_along/video/12_dockerize_rag/backend",
+    "code_along/video/12_dockerize_rag/frontend",
+]
